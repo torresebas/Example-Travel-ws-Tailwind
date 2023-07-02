@@ -20,7 +20,7 @@ const Navbar = () => {
     setLogo(!logo);
   };
   return (
-    <div className="flex justify-between items-center h-20p px-4">
+    <div className="flex w-full justify-between items-center h-20p px-4 absolute z-10">
       <div >
         <h1 className={logo ? "hidden" : "block"} onClick={handleNav}>Beaches.</h1>
       </div>
