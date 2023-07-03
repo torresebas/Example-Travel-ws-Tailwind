@@ -8,6 +8,7 @@ const Hero = () => {
       <video
         className="w-full h-full object-cover"
         src={beachVid}
+        playsinline
         muted
         autoPlay
         loop
