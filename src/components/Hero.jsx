@@ -8,9 +8,9 @@ const Hero = () => {
       <video
         className="w-full h-full object-cover"
         src={beachVid}
+        muted
         autoPlay
         loop
-        muted
       />
       <div className="absolute w-full h-full top-0 left-0 bg-gray-900/30"></div>
       <div className="absolute top-0 w-full h-full flex flex-col justify-center text-center text-white p-4">
